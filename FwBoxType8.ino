@@ -17,7 +17,7 @@
 #include <BH1750.h> // Light Sensor (BH1750)
 
 #define DEVICE_TYPE 8
-#define FIRMWARE_VERSION "1.1.1"
+#define FIRMWARE_VERSION "1.1.4"
 
 //
 // Debug definitions
