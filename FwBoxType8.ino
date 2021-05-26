@@ -17,7 +17,7 @@
 #include <BH1750.h> // Light Sensor (BH1750)
 
 #define DEVICE_TYPE 8
-#define FIRMWARE_VERSION "1.1.5"
+#define FIRMWARE_VERSION "1.1.6"
 
 //
 // Debug definitions
@@ -67,7 +67,7 @@ unsigned long ReadingTime = 0;
 void setup()
 {
   Wire.begin();  // Join IIC bus for Light Sensor (BH1750).
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   pinMode(LED_BUILTIN, OUTPUT);
 
